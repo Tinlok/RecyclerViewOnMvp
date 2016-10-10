@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "E:\\Android-projiect\\MvpRecyclerView\\superSwipeRefreshLayout\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\down_arrow.png",
+        "source": "E:\\Android-projiect\\MvpRecyclerView\\superSwipeRefreshLayout\\src\\main\\res\\drawable-hdpi\\down_arrow.png"
+    },
+    {
+        "merged": "E:\\Android-projiect\\MvpRecyclerView\\superSwipeRefreshLayout\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\expand.png",
+        "source": "E:\\Android-projiect\\MvpRecyclerView\\superSwipeRefreshLayout\\src\\main\\res\\drawable-hdpi\\expand.png"
+    },
+    {
+        "merged": "E:\\Android-projiect\\MvpRecyclerView\\superSwipeRefreshLayout\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\folder.png",
+        "source": "E:\\Android-projiect\\MvpRecyclerView\\superSwipeRefreshLayout\\src\\main\\res\\drawable-hdpi\\folder.png"
+    },
+    {
+        "merged": "E:\\Android-projiect\\MvpRecyclerView\\superSwipeRefreshLayout\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "E:\\Android-projiect\\MvpRecyclerView\\superSwipeRefreshLayout\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Android-projiect\\MvpRecyclerView\\superSwipeRefreshLayout\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\file.png",
+        "source": "E:\\Android-projiect\\MvpRecyclerView\\superSwipeRefreshLayout\\src\\main\\res\\drawable-hdpi\\file.png"
+    }
+]

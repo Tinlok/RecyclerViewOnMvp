@@ -1,0 +1,58 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--通用工具栏-->
+    <declare-styleable name="BaseToolBar">
+        <!--左侧文字-->
+        <attr name="leftText" format="string" />
+        <!--中间文字-->
+        <attr name="centerText" format="string" />
+        <!--右侧文字-->
+        <attr name="rightText" format="string" />
+        <!--左侧图标-->
+        <attr name="leftIcon" format="reference" />
+        <!--右侧图标-->
+        <attr name="rightIcon" format="reference" />
+        <!--右侧第一个图标-->
+        <attr name="leftrightIcon" format="reference" />
+        <!--右侧图标背景-->
+        <attr name="leftIconBackground" format="reference" />
+        <!--右侧图标背景-->
+        <attr name="rightIconBackground" format="reference" />
+    </declare-styleable>
+
+    <style name="toolbar_text_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+    <style name="SwipeBackLayout">
+        <item name="edge_size">0dp</item>
+    </style>
+
+    <style name="NoTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+    <!-- 设置dialog弹出，退出动画 -->
+    <style name="dialogWindowAnim" parent="android:Animation" mce_bogus="1">
+                <item name="android:windowEnterAnimation">@anim/dialog_open</item>
+                <item name="android:windowExitAnimation">@anim/dialog_close</item>
+    </style>
+</resources>

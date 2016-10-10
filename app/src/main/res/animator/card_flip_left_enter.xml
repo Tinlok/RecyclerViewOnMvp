@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 立即设置为透明 -->
+
+    <objectAnimator android:valueTo="0.0" android:valueFrom="1.0" android:propertyName="alpha" android:duration="0">
+        <!-- 旋转 -->
+        <objectAnimator android:valueTo="0" android:valueFrom="-90" android:propertyName="rotationY" android:duration="200" android:interpolator="@android:interpolator/accelerate_decelerate">
+            <!-- 旋转一半的时间，逐渐显示 -->
+            <objectAnimator android:valueTo="1.0" android:valueFrom="0.0" android:propertyName="alpha" android:duration="1" android:startOffset="100">
+                <!-- 最后放大 -->
+                <objectAnimator android:valueTo="1.0" android:valueFrom="0.8" android:propertyName="scaleX" android:duration="200" android:startOffset="200">
+                    <objectAnimator android:valueTo="1.0" android:valueFrom="0.8" android:propertyName="scaleY" android:duration="200" android:startOffset="200">
+                    </objectAnimator></objectAnimator></objectAnimator></objectAnimator></objectAnimator>
+</set>

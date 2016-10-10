@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "E:\\Android-projiect\\MvpRecyclerView\\superSwipeRefreshLayout\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\layout_footer.xml",
+        "source": "E:\\Android-projiect\\MvpRecyclerView\\superSwipeRefreshLayout\\build\\intermediates\\bundles\\debug\\res\\layout\\layout_footer.xml"
+    },
+    {
+        "merged": "E:\\Android-projiect\\MvpRecyclerView\\superSwipeRefreshLayout\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_main.xml",
+        "source": "E:\\Android-projiect\\MvpRecyclerView\\superSwipeRefreshLayout\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\Android-projiect\\MvpRecyclerView\\superSwipeRefreshLayout\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_recyclerview.xml",
+        "source": "E:\\Android-projiect\\MvpRecyclerView\\superSwipeRefreshLayout\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_recyclerview.xml"
+    },
+    {
+        "merged": "E:\\Android-projiect\\MvpRecyclerView\\superSwipeRefreshLayout\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\layout_head.xml",
+        "source": "E:\\Android-projiect\\MvpRecyclerView\\superSwipeRefreshLayout\\build\\intermediates\\bundles\\debug\\res\\layout\\layout_head.xml"
+    },
+    {
+        "merged": "E:\\Android-projiect\\MvpRecyclerView\\superSwipeRefreshLayout\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\item_recycler_child.xml",
+        "source": "E:\\Android-projiect\\MvpRecyclerView\\superSwipeRefreshLayout\\build\\intermediates\\bundles\\debug\\res\\layout\\item_recycler_child.xml"
+    },
+    {
+        "merged": "E:\\Android-projiect\\MvpRecyclerView\\superSwipeRefreshLayout\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_listview.xml",
+        "source": "E:\\Android-projiect\\MvpRecyclerView\\superSwipeRefreshLayout\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_listview.xml"
+    },
+    {
+        "merged": "E:\\Android-projiect\\MvpRecyclerView\\superSwipeRefreshLayout\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_scrollview.xml",
+        "source": "E:\\Android-projiect\\MvpRecyclerView\\superSwipeRefreshLayout\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_scrollview.xml"
+    }
+]

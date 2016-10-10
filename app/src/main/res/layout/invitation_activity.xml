@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/activity_bg"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:id="@+id/invitation_root"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <include layout="@layout/custom_toolbar"/>
+        <net.mobctrl.views.SuperSwipeRefreshLayout
+            android:id="@+id/invitation_refresh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/activity_my_focus_recyclerview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </net.mobctrl.views.SuperSwipeRefreshLayout>
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/invitation_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        android:src="@drawable/launch" />
+
+</android.support.design.widget.CoordinatorLayout>

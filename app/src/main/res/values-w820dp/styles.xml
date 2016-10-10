@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+                <!--toolbar背景颜色:应用的主要色调，actionBar默认使用该颜色-->
+                <item name="colorPrimary">@color/colorPrimary</item>
+                <!--状态栏背景颜色:应用的主要暗色调，statusBarColor默认使用该颜色-->
+                <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+                <!--Checkbox、Edittext、Toggle、Seekbar颜色:一般控件的选种效果默认采用该颜色-->
+                <item name="colorAccent">@color/colorAccent</item>
+                <!--字体颜色-->
+                <item name="android:textColorPrimary">@color/black</item>
+                <!--背景色-->
+                <item name="android:windowBackground">@color/white</item>
+                <item name="android:windowIsTranslucent">true</item>
+                <!--android:colorPrimaryDark 应用的主要暗色调，statusBarColor默认使用该颜色
+                android:statusBarColor 状态栏颜色，默认使用colorPrimaryDark
+                android:colorPrimary 应用的主要色调，actionBar默认使用该颜色
+                android:windowBackground 窗口背景颜色
+                android:navigationBarColor 底部栏颜色
+                android:colorForeground 应用的前景色，ListView的分割线，switch滑动区默认使用该颜色
+                android:colorBackground 应用的背景色，popMenu的背景默认使用该颜色
+                android:colorAccent 一般控件的选种效果默认采用该颜色
+                android:colorControlNormal 控件的默认色调　
+                android:colorControlHighlight 控件按压时的色调
+                android:colorControlActivated 控件选中时的颜色，默认使用colorAccent
+                android:colorButtonNormal 默认按钮的背景颜色
+                android:textColor Button，textView的文字颜色
+                android:textColorPrimaryDisableOnly RadioButton checkbox等控件的文字
+                android:textColorPrimary 应用的主要文字颜色，actionBar的标题文字默认使用该颜色-->
+        </style>
+</resources>

@@ -1,0 +1,564 @@
+<resources>
+    <string name="app_name">WITH</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+
+    <string name="label">性别</string>
+    <string name="male">男</string>
+    <string name="female">女</string>
+    <string name="str01">WITH</string>
+    <string name="str02">You will never walk alone</string>
+    <string name="str03">创建账号，表示你同意服务条款和隐私条款</string>
+
+    <string-array name="sports">
+        <item>篮球</item>
+        <item>足球</item>
+        <item>桌球</item>
+        <item>乒乓球</item>
+        <item>跑步</item>
+        <item>游泳</item>
+        <item>羽毛球</item>
+        <item>网球</item>
+        <item>健身</item>
+        <item>户外</item>
+        <item>溜冰</item>
+        <item>其他运动</item>
+    </string-array>
+    <string-array name="study">
+        <item>自习</item>
+        <item>晨读</item>
+        <item>英语口语</item>
+        <item>英语四六级</item>
+        <item>BEC</item>
+        <item>考研</item>
+        <item>看书</item>
+        <item>其他学习</item>
+    </string-array>
+    <string-array name="brpg">
+        <item>三国杀</item>
+        <item>狼人杀</item>
+        <item>UNO</item>
+        <item>围棋</item>
+        <item>象棋</item>
+        <item>五子棋</item>
+        <item>德州扑克</item>
+        <item>21点</item>
+        <item>斗地主</item>
+        <item>其他桌游</item>
+    </string-array>
+    <string-array name="onlineGame">
+        <item>英雄联盟</item>
+        <item>Dota2</item>
+        <item>守望先锋</item>
+        <item>CF</item>
+        <item>DNF</item>
+        <item>王者荣耀</item>
+        <item>斗地主</item>
+        <item>其他网游</item>
+    </string-array>
+    <string-array name="date">
+        <item>吃饭</item>
+        <item>唱K</item>
+        <item>电影</item>
+        <item>散步</item>
+        <item>演唱会</item>
+        <item>露营</item>
+        <item>其他约会</item>
+    </string-array>
+    <string-array name="other">
+        <item>其他</item>
+    </string-array>
+    <!--登录页面-->
+    <string name="login_tab">登录</string>
+    <string name="register_tab">注册</string>
+    <string name="student_number_hint">学号</string>
+    <string name="realname_hint">姓名</string>
+    <string name="sex_label">性别</string>
+    <string name="man_label">男</string>
+    <string name="woman_label">女</string>
+    <string name="verification_btn">验证</string>
+    <string name="warning_report1_dialog">此学号已绑定于手机：</string>
+    <string name="warning_report2_dialog">请用该号码登录</string>
+    <string name="warning_forget_password_btn_dialog">找回密码</string>
+    <string name="warning_appeal_btn_dialog">申诉</string>
+    <string name="warning_gotologin_btn_dialog">去登录</string>
+    <string name="phone_number_hint">手机号码</string>
+    <string name="get_verification_code_btn">验证码</string>
+    <string name="input_verification_code_hint">输入验证码</string>
+    <string name="password_hint">密码</string>
+    <string name="confirm_password_hint1">确认密码</string>
+    <string name="creat_txt_label">创建账号，表示你同意服务条款和隐私条款</string>
+    <string name="forget_password_label">忘记密码</string>
+    <string name="app_name_label">WITH</string>
+    <string name="app_tagline_label">You Will Never Walk Alone</string>
+
+
+    <!--主页和主页的侧栏-->
+    <string name="home_title">首页</string>
+    <string name="sport_label">运动</string>
+    <string name="study_label">学习</string>
+    <string name="brpg_label">桌游</string>
+    <string name="onlinegame_label">网游</string>
+    <string name="party_label">聚会</string>
+    <string name="other_label">其他</string>
+    <string name="my_invitation_label">我发起的活动</string>
+    <string name="my_participation_label">我参与的活动</string>
+    <string name="my_insist_label">我的坚持</string>
+    <string name="my_news_label">我的信息</string>
+    <string name="my_concern_label">我的关注</string>
+    <string name="setting_label">设置</string>
+    <string name="quit_label">退出登录</string>
+    <string name="check_update_label">检查更新</string>
+
+
+    <!--修改密码-->
+    <string name="old_password_hint">请输入原密码</string>
+    <string name="new_password_hint">请输入新密码</string>
+    <string name="confirm_password_hint">请确认新密码</string>
+    <string name="modify_password_hint">修改密码</string>
+
+
+    <!--我的关注页面-->
+    <string name="my_concern_title">我的关注</string>
+    <string name="activity_tab">活动</string>
+    <string name="user_tab">用户</string>
+    <string name="cancel_concern_btn">取关</string>
+    <string name="concern_btn">关注</string>
+
+
+    <!--我的信息页面-->
+    <string name="my_news_title">我的信息</string>
+    <string name="activity_news_label">活动消息</string>
+    <string name="special_application_label">特批消息</string>
+    <string name="comefrom_label">来自：</string>
+    <string name="applicant_label">申请人</string>
+    <string name="cancel_event_label">【取消了活动】</string>
+    <string name="exit_event_label">【退出了活动】</string>
+    <string name="activity_title_label_dialog">活动标题：</string>
+    <string name="activity_time_label_dialog">活动时间：</string>
+    <string name="active_site_label_dialog"> 活动地点：</string>
+    <string name="applicant_number_label">已报名人数：</string>
+    <string name="delete_news_btn_dialog">删除消息</string>
+    <string name="approval_btn_dialog">批准</string>
+
+
+    <!--我的坚持页面-->
+    <string name="insist_title">坚持</string>
+    <string name="daily_noteslabel">每日备注</string>
+    <string name="edit_btn">编辑</string>
+    <string name="new_task_dialog">新建任务</string>
+    <string name="task_title_dialog">任务标题：</string>
+    <string name="task_details_dialog">任务详情：</string>
+    <string name="cancel_btn_dialog">取消</string>
+    <string name="ensure_btn_dialog">确定</string>
+
+
+    <!--其他用户的以及自己的个人资料页面-->
+    <string name="personal_data_title">个人资料</string>
+    <string name="name_label">姓名</string>
+    <string name="student_number_label">学号</string>
+    <string name="QQ_label">QQ</string>
+    <string name="phone_number_label">手机号码</string>
+
+
+    <!--活动详情页面-->
+    <string name="activity_data_title">活动详情</string>
+    <string name="time_label">时间</string>
+    <string name="site_label">地点</string>
+    <string name="sex_requirements_label">性别要求：</string>
+    <string name="applicanted_label">已报名：</string>
+    <string name="originator_information_label">发起人信息：</string>
+    <string name="participant_information_label">参与人信息：</string>
+    <string name="my_sponsor_title">我的活动</string>
+    <string name="edit_btn_dialog">我的发起</string>
+    <string name="remove_btn_dialog">删除</string>
+
+
+    <!--筛选子类时的模态窗-->
+    <string name="basketball_label_dialog">篮球</string>
+    <string name="football_label_dialog">足球</string>
+    <string name="pingpongball_label_dialog">乒乓球</string>
+    <string name="badminton_label_dialog">羽毛球</string>
+    <string name="volleyball_label_dialog">排球</string>
+    <string name="tennis_label_dialog">网球</string>
+    <string name="billiards_label_dialog">桌球</string>
+    <string name="run_label_dialog">跑步</string>
+    <string name="bodybuilding_label_dialog">健身</string>
+    <string name="swimming_label_dialog">游泳</string>
+    <string name="outdoors_label_dialog">户外</string>
+    <string name="skating_label_dialog">溜冰</string>
+    <string name="lol_label_dialog">英雄联盟</string>
+    <string name="overwatch_label_dialog">守望先锋</string>
+    <string name="wwtk_label_dialog">三国杀</string>
+    <string name="dota2_label_dialog">DOTA2</string>
+    <string name="kingglory_label_dialog">王者荣耀</string>
+    <string name="cf_label_dialog">CF</string>
+    <string name="fal_label_dialog">斗地主</string>
+    <string name="dnf_label_dialog">地下城与勇士</string>
+    <string name="chinesechess_label_dialog">象棋</string>
+    <string name="go_label_dialog">围棋</string>
+    <string name="gobang_label_dialog">五子棋</string>
+    <string name="texasholdem_label_dialog">德州扑克</string>
+    <string name="point21_label_dialog">21点</string>
+    <string name="werewolfKill_label_dialog">狼人杀</string>
+    <string name="uno_label_dialog">UNO</string>
+    <string name="selfstudy_label_dialog">自习</string>
+    <string name="spokenenglish_label_dialog">英语口语</string>
+    <string name="cet_label_dialog">英语四六级</string>
+    <string name="morningreading_label_dialog">晨读</string>
+    <string name="read_label_dialog">看书</string>
+    <string name="pubmed_label_dialog">考研</string>
+    <string name="bec_label_dialog">BEC</string>
+    <string name="film_label_dialog">电影</string>
+    <string name="dinner_label_dialog">吃饭</string>
+    <string name="karaoke_label_dialog">唱K</string>
+    <string name="camping_label_dialog">露营</string>
+    <string name="walk_label_dialog">散步</string>
+    <string name="concert_label_dialog">演唱会</string>
+
+
+    <!--发起活动页面-->
+    <string name="my_activity_title">发起活动</string>
+    <string name="my_sponser_title">我的活动</string>
+    <string name="activity_type_label">活动类型：</string>
+    <string name="activity_title_label">活动标题：</string>
+    <string name="description_label">内容描述：</string>
+    <string name="description_hint">请描述活动具体内容</string>
+    <string name="unlimited_label">不限</string>
+    <string name="activity_time_label">活动时间：</string>
+    <string name="active_site_label">活动地点：</string>
+    <string name="upper_limit_label">人数上限：</string>
+    <string name="hide_Information_label">隐藏参与人信息：</string>
+    <string name="launch_activities_btn">发起活动</string>
+    <string name="cancel_return_btn">取消返回</string>
+    <string name="ensure_edit_btn">确认编辑</string>
+    <string name="cancel_activity_btn">取消活动</string>
+
+
+
+    <string name="basketball_title1_label">无兄弟，不篮球！</string>
+    <string name="basketball_title2_label">发起了打篮球活动</string>
+    <string name="basketball_title3_label">组队打篮球，求with！</string>
+    <string-array name="title_basketball">
+        <item>无兄弟，不篮球！</item>
+        <item>发起了打篮球活动</item>
+        <item>组队打篮球，求with！</item>
+    </string-array>
+    <string name="football_title1_label">速度与激情，一触即发！</string>
+    <string name="football_title2_label">发起了踢足球活动</string>
+    <string name="football_title3_label">组队踢足球，求with！</string>
+    <string-array name="title_football">
+        <item>速度与激情，一触即发！</item>
+        <item>发起了踢足球活动</item>
+        <item>组队踢足球，求with！</item>
+    </string-array>
+    <string name="pingpongball_title1_label">乒出快乐，乒出精彩！</string>
+    <string name="pingpongball_title2_label">发起了打乒乓球活动</string>
+    <string name="pingpongball_title3_label">组队打乒乓球，求with！</string>
+    <string-array name="title_pingpongball">
+        <item>乒出快乐，乒出精彩！</item>
+        <item>发起了打乒乓球活动</item>
+        <item>组队打乒乓球，求with！</item>
+    </string-array>
+    <string name="badminton_title1_label">“羽”你相遇，好幸运~</string>
+    <string name="badminton_title2_label">发起了打羽毛球活动</string>
+    <string name="badminton_title3_label">组队打羽毛球，求with！</string>
+    <string-array name="title_badminton">
+        <item>“羽”你相遇，好幸运~</item>
+        <item>发起了打羽毛球活动</item>
+        <item>组队打羽毛球，求with！</item>
+    </string-array>
+    <string name="volleyball_title1_label">排排更健康！</string>
+    <string name="volleyball_title2_label">发起了打排球活动</string>
+    <string name="volleyball_title3_label">组队打排球，求with！</string>
+    <string-array name="title_volleyball">
+        <item>排排更健康！</item>
+        <item>发起了打排球活动</item>
+        <item>组队打排球，求with！</item>
+    </string-array>
+    <string name="tennis_title1_label">网球场上挥拍间超越平凡！</string>
+    <string name="tennis_title2_label">发起了打网球活动</string>
+    <string name="tennis_title3_label">组队打网球，求with！</string>
+    <string-array name="title_tennis">
+        <item>网球场上挥拍间超越平凡！</item>
+        <item>发起了打网球活动</item>
+        <item>组队打网球，求with！</item>
+    </string-array>
+    <string name="billiards_title1_label">一杆在手，广交朋友！</string>
+    <string name="billiards_title2_label">发起了打桌球活动</string>
+    <string name="billiards_title3_label">组队打桌球，求with！</string>
+    <string-array name="title_billiards">
+        <item>一杆在手，广交朋友！</item>
+        <item>发起了打桌球活动</item>
+        <item>组队打桌球，求with！</item>
+    </string-array>
+    <string name="run_title1_label">随风奔跑自由是方向！</string>
+    <string name="run_title2_label">发起了跑步活动</string>
+    <string name="run_title3_label">组队跑步，求with！</string>
+    <string-array name="title_run">
+        <item>随风奔跑自由是方向！</item>
+        <item>发起了跑步活动</item>
+        <item>组队跑步，求with！</item>
+    </string-array>
+    <string name="bodybuilding_title1_label">生命不止，健身不息！</string>
+    <string name="bodybuilding_title2_label">发起了健身活动</string>
+    <string name="bodybuilding_title3_label">组队健身，求with！</string>
+    <string-array name="title_bodybuilding">
+        <item>生命不止，健身不息！</item>
+        <item>发起了健身活动</item>
+        <item>组队健身，求with！</item>
+    </string-array>
+    <string name="swimming_tilte1_label">泳者无疆，任你游！</string>
+    <string name="swimming_tilte2_label">发起了游泳活动</string>
+    <string name="swimming_tilte3_label">组队游泳，求with！</string>
+    <string-array name="title_swimming">
+        <item>泳者无疆，任你游！</item>
+        <item>发起了游泳活动</item>
+        <item>组队游泳，求with！</item>
+    </string-array>
+    <string name="outdoors_title1_label">走出宿舍，走向户外！</string>
+    <string name="outdoors_title2_label">发起了户外活动</string>
+    <string name="outdoors_title3_label">组队户外，求with！</string>
+    <string-array name="title_outdoors">
+        <item>走出宿舍，走向户外！</item>
+        <item>发起了户外活动</item>
+        <item>组队户外，求with！</item>
+    </string-array>
+    <string name="skating_title1_label">朦胧的时间，我们溜了多远</string>
+    <string name="skating_title2_label">发起了溜冰活动</string>
+    <string name="skating_title3_label">组队溜冰，求with！</string>
+    <string-array name="title_skating">
+        <item>朦胧的时间，我们溜了多远</item>
+        <item>发起了溜冰活动</item>
+        <item>组队溜冰，求with！</item>
+    </string-array>
+    <string name="lol_title1_label">享受电竞，热爱生活</string>
+    <string name="lol_title2_label">发起了英雄联盟活动</string>
+    <string name="lol_title3_label">组队LOL，求with！</string>
+    <string-array name="title_lol">
+        <item>享受电竞，热爱生活</item>
+        <item>发起了英雄联盟活动</item>
+        <item>组队LOL，求with！</item>
+    </string-array>
+    <string name="overwatch_title1">来！战个痛快！</string>
+    <string name="overwatch_title2">发起了守望先锋活动</string>
+    <string name="overwatch_title3">组队守望先锋，求with！</string>
+    <string-array name="title_overwatch">
+        <item>来！战个痛快！</item>
+        <item>发起了守望先锋活动</item>
+        <item>组队守望先锋，求with！</item>
+    </string-array>
+    <string name="wwtk_title1_label">挡我霸业者死！</string>
+    <string name="wwtk_title2_label">发起了三国杀活动</string>
+    <string name="wwtk_title3_label">组队三国杀，求with！</string>
+    <string-array name="title_wwtk">
+        <item>挡我霸业者死！</item>
+        <item>发起了三国杀活动</item>
+        <item>组队三国杀，求with！</item>
+    </string-array>
+    <string name="dota2_title1_label">人在塔在！</string>
+    <string name="dota2_title2_label">发起了DOTA2活动</string>
+    <string name="dota2_title3_label">组队DOTA2，求with！</string>
+    <string-array name="title_dota2">
+        <item>人在塔在！</item>
+        <item>发起了DOTA2活动</item>
+        <item>组队DOTA2，求with！</item>
+    </string-array>
+    <string name="kingglory_title1_label">一起王者荣耀，一起超神！</string>
+    <string name="kingglory_title2_label">发起了王者荣耀活动</string>
+    <string name="kingglory_title3_label">组队王者荣耀，求with！</string>
+    <string-array name="title_kingglory">
+        <item>一起王者荣耀，一起超神！</item>
+        <item>发起了王者荣耀活动</item>
+        <item>组队王者荣耀，求with！</item>
+    </string-array>
+    <string name="cf_title1_label">决胜千里，让子弹飞</string>
+    <string name="cf_title2_label">发起了CF活动</string>
+    <string name="cf_title3_label">组队CF，求with！</string>
+    <string-array name="title_cf">
+        <item>决胜千里，让子弹飞</item>
+        <item>发起了CF活动</item>
+        <item>组队CF，求with！</item>
+    </string-array>
+    <string name="fal_title1_label">斗地主，我抢！我抢！</string>
+    <string name="fal_title2_label">发起了斗地主活动</string>
+    <string name="fal_title3_label">组队斗地主，求with！</string>
+    <string-array name="title_fal">
+        <item>斗地主，我抢！我抢！</item>
+        <item>发起了斗地主活动</item>
+        <item>组队斗地主，求with！</item>
+    </string-array>
+    <string name="dnf_title1_label">地下城，一起闯！</string>
+    <string name="dnf_title2_label">发起了地下城与勇士活动</string>
+    <string name="dnf_title3_label">组队地下城与勇士,求with！</string>
+    <string-array name="title_dnf">
+        <item>地下城，一起闯！</item>
+        <item>发起了地下城与勇士活动</item>
+        <item>组队地下城与勇士,求with！</item>
+    </string-array>
+    <string name="chinesechess_title1_label">以棋会友，乐在棋中~</string>
+    <string name="chinesechess_title2_label">发起了象棋活动</string>
+    <string name="chinesechess_title3_label">组队象棋,求with！</string>
+    <string-array name="title_chinesechess">
+        <item>以棋会友，乐在棋中</item>
+        <item>发起了象棋活动</item>
+        <item>组队象棋,求with！</item>
+    </string-array>
+    <string name="go_title1_label">黑白之间，玄妙无尽！</string>
+    <string name="go_title2_label">发起了围棋活动</string>
+    <string name="go_title3_label">组队围棋,求with！</string>
+    <string-array name="title_go">
+        <item>黑白之间，玄妙无尽！</item>
+        <item>发起了围棋活动</item>
+        <item>组队围棋,求with！</item>
+    </string-array>
+    <string name="gobang_title1_label">以棋会友，乐在棋中~</string>
+    <string name="gobang_title2_label">发起了五子棋活动</string>
+    <string name="gobang_title3_label">组队五子棋,求with！</string>
+    <string-array name="title_gobang">
+        <item>以棋会友，乐在棋中~</item>
+        <item>发起了五子棋活动</item>
+        <item>组队五子棋,求with！</item>
+    </string-array>
+    <string name="texasholdem_title1_label">来德州扑克，要玩就玩大的！</string>
+    <string name="texasholdem_title2_label">发起了德州扑克活动</string>
+    <string name="texasholdem_title3_label">组队德州扑克,求with！</string>
+    <string-array name="title_texasholdem">
+        <item>来德州扑克，要玩就玩大的！</item>
+        <item>发起了德州扑克活动</item>
+        <item>组队德州扑克,求with！</item>
+    </string-array>
+    <string name="point21_title1_label">以牌会友，其乐无穷</string>
+    <string name="point21_title2_label">发起了21点活动</string>
+    <string name="point21_title3_label">组队21点,求with！</string>
+    <string-array name="title_point21">
+        <item>以牌会友，其乐无穷</item>
+        <item>发起了21点活动</item>
+        <item>组队21点,求with！</item>
+    </string-array>
+    <string name="werewolfkill_title1_label">天黑请闭眼！今晚狼人想杀谁？</string>
+    <string name="werewolfkill_title2_label">发起了狼人杀活动</string>
+    <string name="werewolfkill_title3_label">组队狼人杀,求with！</string>
+    <string-array name="title_werewolfkill">
+        <item>天黑请闭眼！今晚狼人想杀谁？</item>
+        <item>发起了狼人杀活动</item>
+        <item>组队狼人杀,求with！</item>
+    </string-array>
+    <string name="uno_title1_label">UNO，拉近你我距离</string>
+    <string name="uno_title2_label">发起了UNO活动</string>
+    <string name="uno_title3_label">组队UNO,求with！</string>
+    <string-array name="title_uno">
+        <item>UNO，拉近你我距离</item>
+        <item>发起了UNO活动</item>
+        <item>组队UNO,求with！</item>
+    </string-array>
+    <string name="selfstudy_title1_label">让自习不再寂寞</string>
+    <string name="selfstudy_title2_label">发起了自习活动</string>
+    <string name="selfstudy_title3_label">组队自习,求with！</string>
+    <string-array name="title_selfstudy">
+        <item>UNO，让自习不再寂寞</item>
+        <item>发起了自习活动</item>
+        <item>组队自习,求with！</item>
+    </string-array>
+    <string name="spokenenglish_title1_label">来练就一口流利的英语吧</string>
+    <string name="spokenenglish_title2_label">发起了练习英语口语活动</string>
+    <string name="spokenenglish_title3_label">组队练习英语口语,求with！</string>
+    <string-array name="title_spokenenglish">
+        <item>来练就一口流利的英语吧</item>
+        <item>发起了练习英语口语活动</item>
+        <item>组队练习英语口语,求with！</item>
+    </string-array>
+    <string name="cet_tiltle1_label">四六级，一起考一起过！</string>
+    <string name="cet_tiltle2_label">发起了备考四六级活动</string>
+    <string name="cet_tiltle3_label">组队备考英语四六级,求with！</string>
+    <string-array name="title_cet">
+        <item>四六级，一起考一起过！</item>
+        <item>发起了备考四六级活动</item>
+        <item>组队备考英语四六级,求with！</item>
+    </string-array>
+    <string name="morningreading_title1_label">早起读书，天天向上！</string>
+    <string name="morningreading_title2_label"> 发起了晨读活动</string>
+    <string name="morningreading_title3_label">组队晨读,求with！</string>
+    <string-array name="title_morningreading">
+        <item>早起读书，天天向上！</item>
+        <item>发起了晨读活动</item>
+        <item>组队晨读,求with！</item>
+    </string-array>
+    <string name="read_title1_label">一起补充精神粮食！</string>
+    <string name="read_title2_label">发起了看书活动</string>
+    <string name="read_title3_label">组队看书,求with！</string>
+    <string-array name="title_read">
+        <item>一起补充精神粮食！</item>
+        <item>发起了看书活动</item>
+        <item>组队看书,求with！</item>
+    </string-array>
+    <string name="pubmed_title1_label">考研，是为了更好的自己</string>
+    <string name="pubmed_title2_label">发起了考研活动</string>
+    <string name="pubmed_title3_label">组队考研,求with！</string>
+    <string-array name="title_pubmed">
+        <item>考研，是为了更好的自己</item>
+        <item>发起了考研活动</item>
+        <item>组队考研,求with！</item>
+    </string-array>
+    <string name="bec_title1_label">过BEC，不能少了你</string>
+    <string name="bec_title2_label">发起了备考BEC活动</string>
+    <string name="bec_title3_label">组队备考BEC,求with！</string>
+    <string-array name="title_bec">
+        <item>过BEC，不能少了你</item>
+        <item>发起了备考BEC活动</item>
+        <item>组队备考BEC,求with！</item>
+    </string-array>
+    <string name="film_title1_label">不知道为什么，突然想看电影</string>
+    <string name="film_title2_label">发起了看电影活动</string>
+    <string name="film_title3_label">组队看电影,求with！</string>
+    <string-array name="title_film">
+        <item>不知道为什么，突然想看电影</item>
+        <item>发起了看电影活动</item>
+        <item>组队看电影,求with！</item>
+    </string-array>
+    <string name="dinner_title1_label">我想我们可以共进晚餐</string>
+    <string name="dinner_title2_label">发起了吃饭活动</string>
+    <string name="dinner_title3_label">组队吃饭,求with！</string>
+    <string-array name="title_dinner">
+        <item>我想我们可以共进美餐</item>
+        <item>发起了吃饭活动</item>
+        <item>组队吃饭,求with！</item>
+    </string-array>
+    <string name="karaoke_title1_label">Mountaintop!就跟着一起来！</string>
+    <string name="karaoke_title2_label">发起了唱K活动</string>
+    <string name="karaoke_title3_label">组队唱K,求with！</string>
+    <string-array name="title_karaoke">
+        <item>Mountaintop!就跟着一起来！</item>
+        <item>发起了唱K活动</item>
+        <item>组队唱K,求with！</item>
+    </string-array>
+    <string name="camping_title1_label">亲近自然，享受生活！</string>
+    <string name="camping_title2_label">发起了露营活动</string>
+    <string name="camping_title3_label">组队露营,求with！</string>
+    <string-array name="title_camping">
+        <item>亲近自然，享受生活！</item>
+        <item>发起了露营活动</item>
+        <item>组队露营,求with！</item>
+    </string-array>
+    <string name="walk_title1_label">与你并肩散步，我心之所向！</string>
+    <string name="walk_title2_label">发起了散步活动</string>
+    <string name="walk_title3_label">组队散步,求with！</string>
+    <string-array name="title_walk">
+        <item>与你并肩散步，我心之所向！</item>
+        <item>发起了散步活动</item>
+        <item>组队散步,求with！</item>
+    </string-array>
+    <string name="concert_title1_label">最开心不过与你看演唱会！</string>
+    <string name="concert_title2_label">发起了看演唱会活动</string>
+    <string name="concert_title3_label">组队看演唱会,求with！</string>
+    <string-array name="title_concert">
+        <item>最开心不过与你看演唱会！</item>
+        <item>发起了看演唱会活动</item>
+        <item>组队看演唱会,求with！</item>
+    </string-array>
+    <string name="other_title_label">发起了一个活动</string>
+    <string-array name="title_other">
+        <item>发起了一个活动</item>
+    </string-array>
+</resources>

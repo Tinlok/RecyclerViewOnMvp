@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape>
+            <gradient
+                android:startColor="#000"
+                android:endColor="@color/colorAccent"
+                android:angle="90" /> <!--角度:从下到上-->
+
+        </shape>
+    </item>
+
+
+    <item  android:top="8dp"><!--距离顶部8dp-->
+        <shape>
+            <solid android:color="@color/colorAccent" />
+        </shape>
+    </item>
+
+</layer-list>
